@@ -90,19 +90,19 @@
             <div class="pergunta">
                 <p>3. Quais esportes você pratica? (Marque todos que aplicam)</p>
                 <div class="opcao">
-                    <input type="checkbox" id="corrida" name="pratica" value="Corrida">
+                    <input type="checkbox" id="corrida" name="pratica[]" value="Corrida">
                     <label for="corrida">Corrida</label>
                 </div>
                 <div class="opcao">
-                    <input type="checkbox" id="ciclismo" name="pratica" value="Ciclismo">
+                    <input type="checkbox" id="ciclismo" name="pratica[]" value="Ciclismo">
                     <label for="ciclismo">Ciclismo</label>
                 </div>
                 <div class="opcao">
-                    <input type="checkbox" id="musculacao" name="pratica" value="Musculação">
+                    <input type="checkbox" id="musculacao" name="pratica[]" value="Musculação">
                     <label for="musculacao">Musculação</label>
                 </div>
                 <div class="opcao">
-                    <input type="checkbox" id="yoga" name="pratica" value="Yoga">
+                    <input type="checkbox" id="yoga" name="pratica[]" value="Yoga">
                     <label for="yoga">Yoga</label>
                 </div>
             </div>

@@ -10,7 +10,10 @@ class RespostaDAO {
         $stmt->execute([
             $resposta['nome'],
             $resposta['esporte'],
-            implode(", ", $resposta['pratica']),
+            // Converte array em string separada por vírgulas
+            // implode(", ", $resposta['pratica']),
+            // $resposta = implode(", ", $praticas),
+             $resposta['pratica'],
             $resposta['email'],
             $resposta['frequencia']
         ]);
